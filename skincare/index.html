@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <title>GlowFusion</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="m">
+      <div id="Home">
+        <nav>
+          <ul class="navbar-menu">
+            <li>
+              <a href="index.html"><i class="fas fa-house"></i>Home</a>
+            </li>
+            <li>
+              <a href="cart.html"
+                ><i class="fa-solid fa-cart-shopping"></i>Cart<span
+                  id="cart-count"
+                  >0</span
+                ></a
+              >
+            </li>
+            <li>
+              <a href="admin.html"><i class="fa-solid fa-lock"></i>Admin</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <section class="about">
+      <div class="container">
+        <div class="about-box">
+          <h2>Welcome to GlowFusion</h2>
+          <p>
+            Welcome to GlowFusion, your ultimate destination for high-quality
+            skincare products. At GlowFusion, we are dedicated to helping you
+            achieve radiant and healthy-looking skin. Our carefully curated
+            selection of skincare products is designed to cater to your unique
+            skincare needs. From rejuvenating serums to nourishing moisturizers,
+            purifying masks, and much more, we have everything you need to
+            create a personalized skincare routine. We believe that skincare
+            should be a luxurious and enjoyable experience, and that's why we
+            handpick each product to ensure they are effective, safe, and made
+            with the finest ingredients. Whether you're looking to address
+            specific skin concerns, enhance your natural glow, or simply indulge
+            in some self-care, GlowFusion has got you covered. Explore our
+            collection and embark on a journey to unlock your skin's true
+            potential. Experience the power of skincare with GlowFusion today!
+          </p>
+        </div>
+      </div>
+    </section>
+    <h1>Explore our selection of products</h1>
+
+    <div id="products-container"></div>
+    <section class="cont">
+      <p>
+        Take the first step towards healthier skin by contacting us today. Our
+        team of skincare experts is here to answer your questions and provide
+        personalized recommendations. Whether you're looking for a skincare
+        routine tailored to your skin type or need advice on specific concerns,
+        we're here to help. Fill out the form below, and we'll get back to you
+        as soon as possible.
+      </p>
+    </section>
+    <div class="form-container">
+      <h2>Contact Us</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

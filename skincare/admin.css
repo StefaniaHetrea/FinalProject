@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&family=Poppins:wght@200&family=Roboto:wght@300&family=Ubuntu+Mono&display=swap");
+* {
+  font-family: "Playfair Display", serif;
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+#home {
+  background-image: url(s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: cover;
+  height: 300px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar-menu li a:hover {
+  background-color: #ccc;
+}
+th {
+  padding: 10px;
+}
+.btn-edit-product {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffd0d0;
+  color: black;
+  font-weight: bold;
+}
+.btn-edit-product:hover {
+  background-color: #ff7070;
+}
+.btn-delete-product {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffd0d0;
+  color: black;
+  font-weight: bold;
+}
+.btn-delete-product:hover {
+  background-color: #ff7070;
+}
+.btn-save-product {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffd0d0;
+  color: black;
+  font-weight: bold;
+}
+.btn-save-product:hover {
+  background-color: #ff7070;
+}
